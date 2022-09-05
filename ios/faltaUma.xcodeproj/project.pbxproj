@@ -8,12 +8,28 @@
 
 /* Begin PBXBuildFile section */
 		00E356F31AD99517003FC87E /* faltaUmaTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* faltaUmaTests.m */; };
-		0C80B921A6F3F58F76C31292 /* libPods-faltaUma.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DCACB8F33CDC322A6C60F78 /* libPods-faltaUma.a */; };
 		13B07FBC1A68108700A75B9A /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.mm */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
-		7699B88040F8A987B510C191 /* libPods-faltaUma-faltaUmaTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 19F6CBCC0A4E27FBF8BF4A61 /* libPods-faltaUma-faltaUmaTests.a */; };
+		4E35796B29E5B9ED0ACA358D /* libPods-faltaUma-faltaUmaTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6C94733B8386858F0F568B92 /* libPods-faltaUma-faltaUmaTests.a */; };
+		6D3C56E2B62A207ED7C941A6 /* libPods-faltaUma.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B6B63AEC5C8F182653147066 /* libPods-faltaUma.a */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
+		A0080DC028C5ADFC0014FBF7 /* Fontisto.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A0080DB028C5ADFC0014FBF7 /* Fontisto.ttf */; };
+		A0080DC128C5ADFC0014FBF7 /* Octicons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A0080DB128C5ADFC0014FBF7 /* Octicons.ttf */; };
+		A0080DC228C5ADFC0014FBF7 /* Feather.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A0080DB228C5ADFC0014FBF7 /* Feather.ttf */; };
+		A0080DC328C5ADFC0014FBF7 /* Entypo.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A0080DB328C5ADFC0014FBF7 /* Entypo.ttf */; };
+		A0080DC428C5ADFC0014FBF7 /* FontAwesome5_Brands.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A0080DB428C5ADFC0014FBF7 /* FontAwesome5_Brands.ttf */; };
+		A0080DC528C5ADFC0014FBF7 /* MaterialCommunityIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A0080DB528C5ADFC0014FBF7 /* MaterialCommunityIcons.ttf */; };
+		A0080DC628C5ADFC0014FBF7 /* AntDesign.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A0080DB628C5ADFC0014FBF7 /* AntDesign.ttf */; };
+		A0080DC728C5ADFC0014FBF7 /* Foundation.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A0080DB728C5ADFC0014FBF7 /* Foundation.ttf */; };
+		A0080DC828C5ADFC0014FBF7 /* Ionicons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A0080DB828C5ADFC0014FBF7 /* Ionicons.ttf */; };
+		A0080DC928C5ADFC0014FBF7 /* FontAwesome5_Solid.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A0080DB928C5ADFC0014FBF7 /* FontAwesome5_Solid.ttf */; };
+		A0080DCA28C5ADFC0014FBF7 /* FontAwesome5_Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A0080DBA28C5ADFC0014FBF7 /* FontAwesome5_Regular.ttf */; };
+		A0080DCB28C5ADFC0014FBF7 /* FontAwesome.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A0080DBB28C5ADFC0014FBF7 /* FontAwesome.ttf */; };
+		A0080DCC28C5ADFC0014FBF7 /* Zocial.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A0080DBC28C5ADFC0014FBF7 /* Zocial.ttf */; };
+		A0080DCD28C5ADFC0014FBF7 /* EvilIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A0080DBD28C5ADFC0014FBF7 /* EvilIcons.ttf */; };
+		A0080DCE28C5ADFC0014FBF7 /* SimpleLineIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A0080DBE28C5ADFC0014FBF7 /* SimpleLineIcons.ttf */; };
+		A0080DCF28C5ADFC0014FBF7 /* MaterialIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A0080DBF28C5ADFC0014FBF7 /* MaterialIcons.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,6 +43,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		005CEF8D65B3E70F3FCF199B /* Pods-faltaUma-faltaUmaTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-faltaUma-faltaUmaTests.release.xcconfig"; path = "Target Support Files/Pods-faltaUma-faltaUmaTests/Pods-faltaUma-faltaUmaTests.release.xcconfig"; sourceTree = "<group>"; };
 		00E356EE1AD99517003FC87E /* faltaUmaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = faltaUmaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		00E356F21AD99517003FC87E /* faltaUmaTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = faltaUmaTests.m; sourceTree = "<group>"; };
@@ -36,13 +53,28 @@
 		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = faltaUma/Images.xcassets; sourceTree = "<group>"; };
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = faltaUma/Info.plist; sourceTree = "<group>"; };
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = faltaUma/main.m; sourceTree = "<group>"; };
-		19F6CBCC0A4E27FBF8BF4A61 /* libPods-faltaUma-faltaUmaTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-faltaUma-faltaUmaTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		3B4392A12AC88292D35C810B /* Pods-faltaUma.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-faltaUma.debug.xcconfig"; path = "Target Support Files/Pods-faltaUma/Pods-faltaUma.debug.xcconfig"; sourceTree = "<group>"; };
-		5709B34CF0A7D63546082F79 /* Pods-faltaUma.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-faltaUma.release.xcconfig"; path = "Target Support Files/Pods-faltaUma/Pods-faltaUma.release.xcconfig"; sourceTree = "<group>"; };
-		5B7EB9410499542E8C5724F5 /* Pods-faltaUma-faltaUmaTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-faltaUma-faltaUmaTests.debug.xcconfig"; path = "Target Support Files/Pods-faltaUma-faltaUmaTests/Pods-faltaUma-faltaUmaTests.debug.xcconfig"; sourceTree = "<group>"; };
-		5DCACB8F33CDC322A6C60F78 /* libPods-faltaUma.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-faltaUma.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		25EC2D37BA5C5C971F7E89F3 /* Pods-faltaUma.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-faltaUma.debug.xcconfig"; path = "Target Support Files/Pods-faltaUma/Pods-faltaUma.debug.xcconfig"; sourceTree = "<group>"; };
+		5C88B3197020211E498768B2 /* Pods-faltaUma.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-faltaUma.release.xcconfig"; path = "Target Support Files/Pods-faltaUma/Pods-faltaUma.release.xcconfig"; sourceTree = "<group>"; };
+		62C320F2BEE70F041C4B493D /* Pods-faltaUma-faltaUmaTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-faltaUma-faltaUmaTests.debug.xcconfig"; path = "Target Support Files/Pods-faltaUma-faltaUmaTests/Pods-faltaUma-faltaUmaTests.debug.xcconfig"; sourceTree = "<group>"; };
+		6C94733B8386858F0F568B92 /* libPods-faltaUma-faltaUmaTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-faltaUma-faltaUmaTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = faltaUma/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		89C6BE57DB24E9ADA2F236DE /* Pods-faltaUma-faltaUmaTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-faltaUma-faltaUmaTests.release.xcconfig"; path = "Target Support Files/Pods-faltaUma-faltaUmaTests/Pods-faltaUma-faltaUmaTests.release.xcconfig"; sourceTree = "<group>"; };
+		A0080DB028C5ADFC0014FBF7 /* Fontisto.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Fontisto.ttf; sourceTree = "<group>"; };
+		A0080DB128C5ADFC0014FBF7 /* Octicons.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Octicons.ttf; sourceTree = "<group>"; };
+		A0080DB228C5ADFC0014FBF7 /* Feather.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Feather.ttf; sourceTree = "<group>"; };
+		A0080DB328C5ADFC0014FBF7 /* Entypo.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Entypo.ttf; sourceTree = "<group>"; };
+		A0080DB428C5ADFC0014FBF7 /* FontAwesome5_Brands.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = FontAwesome5_Brands.ttf; sourceTree = "<group>"; };
+		A0080DB528C5ADFC0014FBF7 /* MaterialCommunityIcons.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = MaterialCommunityIcons.ttf; sourceTree = "<group>"; };
+		A0080DB628C5ADFC0014FBF7 /* AntDesign.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = AntDesign.ttf; sourceTree = "<group>"; };
+		A0080DB728C5ADFC0014FBF7 /* Foundation.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Foundation.ttf; sourceTree = "<group>"; };
+		A0080DB828C5ADFC0014FBF7 /* Ionicons.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Ionicons.ttf; sourceTree = "<group>"; };
+		A0080DB928C5ADFC0014FBF7 /* FontAwesome5_Solid.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = FontAwesome5_Solid.ttf; sourceTree = "<group>"; };
+		A0080DBA28C5ADFC0014FBF7 /* FontAwesome5_Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = FontAwesome5_Regular.ttf; sourceTree = "<group>"; };
+		A0080DBB28C5ADFC0014FBF7 /* FontAwesome.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = FontAwesome.ttf; sourceTree = "<group>"; };
+		A0080DBC28C5ADFC0014FBF7 /* Zocial.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Zocial.ttf; sourceTree = "<group>"; };
+		A0080DBD28C5ADFC0014FBF7 /* EvilIcons.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = EvilIcons.ttf; sourceTree = "<group>"; };
+		A0080DBE28C5ADFC0014FBF7 /* SimpleLineIcons.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = SimpleLineIcons.ttf; sourceTree = "<group>"; };
+		A0080DBF28C5ADFC0014FBF7 /* MaterialIcons.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = MaterialIcons.ttf; sourceTree = "<group>"; };
+		B6B63AEC5C8F182653147066 /* libPods-faltaUma.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-faltaUma.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
@@ -51,7 +83,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7699B88040F8A987B510C191 /* libPods-faltaUma-faltaUmaTests.a in Frameworks */,
+				4E35796B29E5B9ED0ACA358D /* libPods-faltaUma-faltaUmaTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -59,7 +91,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0C80B921A6F3F58F76C31292 /* libPods-faltaUma.a in Frameworks */,
+				6D3C56E2B62A207ED7C941A6 /* libPods-faltaUma.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -86,6 +118,7 @@
 		13B07FAE1A68108700A75B9A /* faltaUma */ = {
 			isa = PBXGroup;
 			children = (
+				A0080DAF28C5ADFC0014FBF7 /* Fonts */,
 				13B07FAF1A68108700A75B9A /* AppDelegate.h */,
 				13B07FB01A68108700A75B9A /* AppDelegate.mm */,
 				13B07FB51A68108700A75B9A /* Images.xcassets */,
@@ -100,8 +133,8 @@
 			isa = PBXGroup;
 			children = (
 				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
-				5DCACB8F33CDC322A6C60F78 /* libPods-faltaUma.a */,
-				19F6CBCC0A4E27FBF8BF4A61 /* libPods-faltaUma-faltaUmaTests.a */,
+				B6B63AEC5C8F182653147066 /* libPods-faltaUma.a */,
+				6C94733B8386858F0F568B92 /* libPods-faltaUma-faltaUmaTests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -137,13 +170,37 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		A0080DAF28C5ADFC0014FBF7 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				A0080DB028C5ADFC0014FBF7 /* Fontisto.ttf */,
+				A0080DB128C5ADFC0014FBF7 /* Octicons.ttf */,
+				A0080DB228C5ADFC0014FBF7 /* Feather.ttf */,
+				A0080DB328C5ADFC0014FBF7 /* Entypo.ttf */,
+				A0080DB428C5ADFC0014FBF7 /* FontAwesome5_Brands.ttf */,
+				A0080DB528C5ADFC0014FBF7 /* MaterialCommunityIcons.ttf */,
+				A0080DB628C5ADFC0014FBF7 /* AntDesign.ttf */,
+				A0080DB728C5ADFC0014FBF7 /* Foundation.ttf */,
+				A0080DB828C5ADFC0014FBF7 /* Ionicons.ttf */,
+				A0080DB928C5ADFC0014FBF7 /* FontAwesome5_Solid.ttf */,
+				A0080DBA28C5ADFC0014FBF7 /* FontAwesome5_Regular.ttf */,
+				A0080DBB28C5ADFC0014FBF7 /* FontAwesome.ttf */,
+				A0080DBC28C5ADFC0014FBF7 /* Zocial.ttf */,
+				A0080DBD28C5ADFC0014FBF7 /* EvilIcons.ttf */,
+				A0080DBE28C5ADFC0014FBF7 /* SimpleLineIcons.ttf */,
+				A0080DBF28C5ADFC0014FBF7 /* MaterialIcons.ttf */,
+			);
+			name = Fonts;
+			path = "../node_modules/react-native-vector-icons/Fonts";
+			sourceTree = "<group>";
+		};
 		BBD78D7AC51CEA395F1C20DB /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				3B4392A12AC88292D35C810B /* Pods-faltaUma.debug.xcconfig */,
-				5709B34CF0A7D63546082F79 /* Pods-faltaUma.release.xcconfig */,
-				5B7EB9410499542E8C5724F5 /* Pods-faltaUma-faltaUmaTests.debug.xcconfig */,
-				89C6BE57DB24E9ADA2F236DE /* Pods-faltaUma-faltaUmaTests.release.xcconfig */,
+				25EC2D37BA5C5C971F7E89F3 /* Pods-faltaUma.debug.xcconfig */,
+				5C88B3197020211E498768B2 /* Pods-faltaUma.release.xcconfig */,
+				62C320F2BEE70F041C4B493D /* Pods-faltaUma-faltaUmaTests.debug.xcconfig */,
+				005CEF8D65B3E70F3FCF199B /* Pods-faltaUma-faltaUmaTests.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -155,12 +212,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "faltaUmaTests" */;
 			buildPhases = (
-				A55EABD7B0C7F3A422A6CC61 /* [CP] Check Pods Manifest.lock */,
+				E924C653639E5DB1CF96DC7C /* [CP] Check Pods Manifest.lock */,
 				00E356EA1AD99517003FC87E /* Sources */,
 				00E356EB1AD99517003FC87E /* Frameworks */,
 				00E356EC1AD99517003FC87E /* Resources */,
-				C59DA0FBD6956966B86A3779 /* [CP] Embed Pods Frameworks */,
-				F6A41C54EA430FDDC6A6ED99 /* [CP] Copy Pods Resources */,
+				DCC4FA1F66A27FC3CB817F86 /* [CP] Embed Pods Frameworks */,
+				57E457F53DF0EC2B30AE52EE /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -176,14 +233,14 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "faltaUma" */;
 			buildPhases = (
-				C38B50BA6285516D6DCD4F65 /* [CP] Check Pods Manifest.lock */,
+				44164708F71468A30D5A513D /* [CP] Check Pods Manifest.lock */,
 				FD10A7F022414F080027D42C /* Start Packager */,
 				13B07F871A680F5B00A75B9A /* Sources */,
 				13B07F8C1A680F5B00A75B9A /* Frameworks */,
 				13B07F8E1A680F5B00A75B9A /* Resources */,
 				00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */,
-				00EEFC60759A1932668264C0 /* [CP] Embed Pods Frameworks */,
-				E235C05ADACE081382539298 /* [CP] Copy Pods Resources */,
+				E9EAC9F70CE4E46B7969A977 /* [CP] Embed Pods Frameworks */,
+				8DB54D2DDA1C42853D81E75E /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -242,7 +299,23 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A0080DC028C5ADFC0014FBF7 /* Fontisto.ttf in Resources */,
+				A0080DCB28C5ADFC0014FBF7 /* FontAwesome.ttf in Resources */,
+				A0080DC728C5ADFC0014FBF7 /* Foundation.ttf in Resources */,
+				A0080DCA28C5ADFC0014FBF7 /* FontAwesome5_Regular.ttf in Resources */,
+				A0080DC828C5ADFC0014FBF7 /* Ionicons.ttf in Resources */,
+				A0080DCD28C5ADFC0014FBF7 /* EvilIcons.ttf in Resources */,
+				A0080DC328C5ADFC0014FBF7 /* Entypo.ttf in Resources */,
 				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
+				A0080DCC28C5ADFC0014FBF7 /* Zocial.ttf in Resources */,
+				A0080DCE28C5ADFC0014FBF7 /* SimpleLineIcons.ttf in Resources */,
+				A0080DC228C5ADFC0014FBF7 /* Feather.ttf in Resources */,
+				A0080DC128C5ADFC0014FBF7 /* Octicons.ttf in Resources */,
+				A0080DC428C5ADFC0014FBF7 /* FontAwesome5_Brands.ttf in Resources */,
+				A0080DC628C5ADFC0014FBF7 /* AntDesign.ttf in Resources */,
+				A0080DCF28C5ADFC0014FBF7 /* MaterialIcons.ttf in Resources */,
+				A0080DC928C5ADFC0014FBF7 /* FontAwesome5_Solid.ttf in Resources */,
+				A0080DC528C5ADFC0014FBF7 /* MaterialCommunityIcons.ttf in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -266,46 +339,7 @@
 			shellPath = /bin/sh;
 			shellScript = "set -e\n\nWITH_ENVIRONMENT=\"../node_modules/react-native/scripts/xcode/with-environment.sh\"\nREACT_NATIVE_XCODE=\"../node_modules/react-native/scripts/react-native-xcode.sh\"\n\n/bin/sh -c \"$WITH_ENVIRONMENT $REACT_NATIVE_XCODE\"\n";
 		};
-		00EEFC60759A1932668264C0 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-faltaUma/Pods-faltaUma-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-faltaUma/Pods-faltaUma-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-faltaUma/Pods-faltaUma-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		A55EABD7B0C7F3A422A6CC61 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-faltaUma-faltaUmaTests-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		C38B50BA6285516D6DCD4F65 /* [CP] Check Pods Manifest.lock */ = {
+		44164708F71468A30D5A513D /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -327,24 +361,24 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		C59DA0FBD6956966B86A3779 /* [CP] Embed Pods Frameworks */ = {
+		57E457F53DF0EC2B30AE52EE /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-faltaUma-faltaUmaTests/Pods-faltaUma-faltaUmaTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-faltaUma-faltaUmaTests/Pods-faltaUma-faltaUmaTests-resources-${CONFIGURATION}-input-files.xcfilelist",
 			);
-			name = "[CP] Embed Pods Frameworks";
+			name = "[CP] Copy Pods Resources";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-faltaUma-faltaUmaTests/Pods-faltaUma-faltaUmaTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-faltaUma-faltaUmaTests/Pods-faltaUma-faltaUmaTests-resources-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-faltaUma-faltaUmaTests/Pods-faltaUma-faltaUmaTests-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-faltaUma-faltaUmaTests/Pods-faltaUma-faltaUmaTests-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		E235C05ADACE081382539298 /* [CP] Copy Pods Resources */ = {
+		8DB54D2DDA1C42853D81E75E /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -361,21 +395,60 @@
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-faltaUma/Pods-faltaUma-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		F6A41C54EA430FDDC6A6ED99 /* [CP] Copy Pods Resources */ = {
+		DCC4FA1F66A27FC3CB817F86 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-faltaUma-faltaUmaTests/Pods-faltaUma-faltaUmaTests-resources-${CONFIGURATION}-input-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-faltaUma-faltaUmaTests/Pods-faltaUma-faltaUmaTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
-			name = "[CP] Copy Pods Resources";
+			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-faltaUma-faltaUmaTests/Pods-faltaUma-faltaUmaTests-resources-${CONFIGURATION}-output-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-faltaUma-faltaUmaTests/Pods-faltaUma-faltaUmaTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-faltaUma-faltaUmaTests/Pods-faltaUma-faltaUmaTests-resources.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-faltaUma-faltaUmaTests/Pods-faltaUma-faltaUmaTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E924C653639E5DB1CF96DC7C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-faltaUma-faltaUmaTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E9EAC9F70CE4E46B7969A977 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-faltaUma/Pods-faltaUma-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-faltaUma/Pods-faltaUma-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-faltaUma/Pods-faltaUma-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		FD10A7F022414F080027D42C /* Start Packager */ = {
@@ -430,7 +503,7 @@
 /* Begin XCBuildConfiguration section */
 		00E356F61AD99517003FC87E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5B7EB9410499542E8C5724F5 /* Pods-faltaUma-faltaUmaTests.debug.xcconfig */;
+			baseConfigurationReference = 62C320F2BEE70F041C4B493D /* Pods-faltaUma-faltaUmaTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -457,7 +530,7 @@
 		};
 		00E356F71AD99517003FC87E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 89C6BE57DB24E9ADA2F236DE /* Pods-faltaUma-faltaUmaTests.release.xcconfig */;
+			baseConfigurationReference = 005CEF8D65B3E70F3FCF199B /* Pods-faltaUma-faltaUmaTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				COPY_PHASE_STRIP = NO;
@@ -481,7 +554,7 @@
 		};
 		13B07F941A680F5B00A75B9A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3B4392A12AC88292D35C810B /* Pods-faltaUma.debug.xcconfig */;
+			baseConfigurationReference = 25EC2D37BA5C5C971F7E89F3 /* Pods-faltaUma.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
@@ -508,7 +581,7 @@
 		};
 		13B07F951A680F5B00A75B9A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5709B34CF0A7D63546082F79 /* Pods-faltaUma.release.xcconfig */;
+			baseConfigurationReference = 5C88B3197020211E498768B2 /* Pods-faltaUma.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
@@ -561,7 +634,7 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				COPY_PHASE_STRIP = NO;
+				COPY_PHASE_STRIP = YES;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
 				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = "";
